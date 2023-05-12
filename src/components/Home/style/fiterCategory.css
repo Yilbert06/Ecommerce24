@@ -1,0 +1,23 @@
+.category{
+height: 150px;
+width: 200px;
+display: flex;
+flex-direction: column;
+gap:2px;
+}
+.category__name{
+    width: 350px;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 7px;
+}
+.category__btn{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.category__btn:hover{
+    background-color: rgb(194, 243, 226);
+    cursor: pointer;
+
+}

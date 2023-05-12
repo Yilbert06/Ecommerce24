@@ -1,0 +1,27 @@
+body{background-color: rgb(190, 238, 237);
+}
+.purchase{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 10px;
+    
+
+}
+.purchase__img{
+    height: 300px;
+    width: 320px;
+}
+.purchase__name{
+    font-size: 20px;
+}
+.purchase__quantity{
+    font-size: 20px;
+}
+.purchase__price{
+    font-size: 22px;
+}

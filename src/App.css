@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   flex-direction: column;
+    gap: 30px;
+    background-color: rgb(218, 248, 248);
+}
+
+.home__filter{
+    width: 820px;
+    height: 40px;
+    margin-bottom: 40px;
+    gap: 30px;
+    
+}
+.inputfilter{
+    display:flex;
+    justify-content: center;
+    margin-left: 5px;
+    width: 580px;
+    height: 40px;
+    right: 20px;
+    border-radius: 15px;
+    letter-spacing: 1.5px;
+}
+.purchases1{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    
+}
+.purchases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    height: 400px;
+    background-color: aqua;
+}

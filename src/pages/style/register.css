@@ -1,0 +1,111 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(69, 184, 205);
+}
+.register__section{
+border: 2px solid;
+border-radius: 70px 30px  70px 30px;
+width: 60%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: stretch;
+margin: auto;
+background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #ffffa1 0,
+    #f5ffa0 6.25%,
+    #e4ffa0 12.5%,
+    #d2ffa1 18.75%,
+    #bdffa3 25%,
+    #a7fda6 31.25%,
+    #8cfaaa 37.5%,
+    #6cf7af 43.75%,
+    #3cf2b5 50%,
+    #00edbc 56.25%,
+    #00e8c6 62.5%,
+    #00e4d0 68.75%,
+    #00dfdc 75%,
+    #00dbe9 81.25%,
+    #00d7f5 87.5%,
+    #00d3ff 93.75%,
+    #00d0ff 100%);
+-webkit-box-shadow: 15px 17px 14px -2px rgba(53,106,184,1);
+-moz-box-shadow: 15px 17px 14px -2px rgba(53,106,184,1);
+box-shadow: 15px 17px 14px -2px rgba(53,106,184,1);
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.register__name{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.register__label{
+font-size: 22px;
+letter-spacing: 1px;
+}
+.register__input{
+font-size: 24px;
+display: flex;
+justify-content: end;
+}
+.register__input:hover{
+    transform: scale(1.1);
+    box-shadow:2px 4px 4px 4px rgba(53,106,184,1);
+
+}
+.register__btn{
+    font-size: 21px;
+    line-height: 39px;
+    border-radius: 6px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    transition: transform 200ms ease;
+    transition: 200ms ease;
+    cursor: pointer;
+
+}
+.register__btn:hover{
+    transform: rotate(10 60deg);
+transform: scale(1.1);
+    background-color: #0398a6;
+    color: rgb(249, 244, 244);
+    border: 1px solid;
+}
+.register__btn2{
+    font-size: 21px;
+    line-height: 39px;
+    font-weight: 400;
+    border: 2px solid;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    background-color: white;
+    transition: transform 200ms ease;
+    transition: 200ms ease;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.register__btn2:hover{
+transform: scale(1.1);
+    background-color: #f03c2f;
+    color: rgb(249, 244, 244);
+    border: 1px solid;
+}
